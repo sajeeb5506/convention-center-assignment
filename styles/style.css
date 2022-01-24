@@ -126,15 +126,17 @@ body {
     color: white;
 }
 
-.fa-google-play {
-    color: #00d4ff;
-    font-size: 30px;
+.google-play {
+    height: 30px;
+    width: 30px;
 }
 
-.fa-apple-alt {
-    color: white;
-    font-size: 30px;
+.app-stor {
+    height: 22px;
+    width: 22px;
 }
+
+
 
 .footer-copyright {
     visibility: hidden;
