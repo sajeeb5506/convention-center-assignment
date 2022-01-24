@@ -8,6 +8,23 @@ body {
     font-weight: 700;
 }
 
+/* toasts */
+.position {
+    position: relative;
+}
+
+.toasts {
+    position: absolute;
+
+
+}
+
+.fa-gift {
+    font-size: 22px;
+    color: #3F87F5;
+    margin-left: 20px;
+}
+
 /* card */
 .bg-color {
     background-color: #3F87F5;
@@ -34,6 +51,9 @@ body {
 
 .btn-card {
     color: #3F87F5;
+    background-color: rgb(201, 201, 201);
+    border-radius: 25px;
+    padding: 5px 15px;
 }
 
 .btn-hilight {
@@ -133,5 +153,6 @@ body {
 
     .footer-copyright {
         visibility: visible;
+        padding-bottom: 20px;
     }
 }

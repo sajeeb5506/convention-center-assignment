@@ -17,6 +17,7 @@
 
 </head>
 <body>
+
   <header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
         <div class="container-fluid">
@@ -30,13 +31,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> Gallery</a>
+                <a class="nav-link" href="#Packages"> Packages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Subscribe</a>
@@ -91,11 +92,23 @@
         </button>
       </div>
   </header>
-  <main>
+  <main class="position">
+        <!-- toasts -->
+    <div class="container toasts "> 
+      <div class="toast show">
+        <div class="toast-header">
+          <strong class="me-auto">Summer Offer</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">
+          <p> <i class="fas fa-gift " ></i>20% off on next booking</p>
+        </div>
+      </div>
+    </div>
     <!-- Our package -->
    
       <h1 class="text-center my-5">Our package</h1>
-      <section class="container my-5">
+      <section class="container my-5 " id="Packages">
       <div class="row row-cols-1 row-cols-lg-4 g-4 my-5">
         <div class="col ">
           <div class="card h-100 border-0 ">
@@ -253,9 +266,12 @@
          
         </div>
       </div>
+ 
     </section>
+
+ 
         <!-- Greetings & Welcome -->
-        <section class="container my-5">
+        <section class="container my-5" id="about">
 
           <h5 class="text-center mt-3 mb-2 question-text">Greetings & Welcome</h5>
           <h2 class="text-center mb-2 ">Dhaka international Convention center</h2>
@@ -283,7 +299,7 @@
   </main>
 
    <footer>
-     <section class="container bg-color-footer">
+     <section class="container bg-color-footer" id="contact">
       <div class="row py-5 resposnive">
         <div class="col col-lg-6 d-flex align-items-center justify-content-center">
           <div class=" zindex-1">
